@@ -1,0 +1,102 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css");
+
+
+.black{
+  background-color: rgb(10, 9, 35);
+  height: 100vh;
+}
+
+input[type='file']{
+  opacity: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  color: white;
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 20px;
+
+
+}
+
+li a:hover{
+  text-decoration: none;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.logo{
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  padding-top: 28px;
+  padding-left: 20px;
+}
+
+.main-content{
+  font-size: 40px;
+  font-weight: 800;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  animation-name: elongate;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.sub-content{
+  font-size: 20px;
+  font-weight: 800;
+  font-family: iceland;
+  color: white;
+  text-align: center;
+  
+}
+.btn{
+  margin-top: 40%;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  font-weight: bolder;
+}
+
+button:hover{
+  color: white;
+  background-color: rgb(1, 1, 80);
+  border: 2px solid white;
+
+}
+.small-content{
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+
+@keyframes elongate {
+  from {
+      font-size: 40px;
+  }
+  to{
+      font-size: 42px;
+  }
+}
