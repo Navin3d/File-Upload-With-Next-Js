@@ -40,8 +40,9 @@ export default function Home() {
           <div class="col-md-2">
 
             {/* <input className='btn' type="file" /> */}
-            <form onSubmit={uploadToClient}>
-              <button class="btn">Upload<input class="choose" name="myImage" onChange={(e) => { setImage(e.target.value) }} type="file" /></button>
+            <form method="post" action="/api/rajini" enctype="multipart/form-data" >
+              {/* <button class="btn">Upload<input class="choose" name="myImage" onChange={(e) => { setImage(e.target.value) }} type="file" /></button> */}
+              <input name="logo" className='btn' type="file" />
             </form>
             <p class="small-content">or drop your file here</p>
           </div>
